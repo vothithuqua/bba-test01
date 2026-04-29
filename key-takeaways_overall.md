@@ -48,7 +48,7 @@
 - Liên tục gõ **"enter"**
 
 #### Đưa code lên GitHub
-![image](../images/push_code_to_github.png)
+![image](./images/push_code_to_github.png)
 
 ---
 
@@ -84,7 +84,7 @@ git commit -m"message"
 
 **Flow cơ bản**
 
-![image1](../images/Git_status.png)
+![image1](./images/Git_status.png)
 
 **Flow phổ biến:**
 
@@ -110,7 +110,7 @@ git commit -m "message"
 
 #### Git - Simple workflow
 
-![image2](../images/simple_workflow.png)
+![image2](./images/simple_workflow.png)
 
 
 ---
