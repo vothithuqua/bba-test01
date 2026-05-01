@@ -437,8 +437,8 @@ const constVariable = "const cũng có block scope";
 }
 
 console.log(varVariable); // OK - var không bị giới hạn bởi block 
-console. log(letVariable); // Error: letVariable is not defined 
-console. log(constVariable); // Error: constVariable is not defined
+console.log(letVariable); // Error: letVariable is not defined 
+console.log(constVariable); // Error: constVariable is not defined
 ```
 
 ### 1.2 Function scope (hàm)
@@ -454,11 +454,11 @@ function myFunction() {
 var functionScoped = "Chỉ có thể truy cập trong hàm này"; 
 let alsoFunctionScoped = "Tương tự";
 
-console. log (functionScoped); // 0K
+console.log (functionScoped); // 0K
 
 }
 
-console. log(functionScoped); // Error: functionScoped is not defined
+console.log(functionScoped); // Error: functionScoped is not defined
 ```
 
 ### 1.3 Toàn cục (global)
@@ -471,8 +471,8 @@ let globalLet = "Tôi cũng là biến toàn cục";
 
 function testFunction() {
 
-console. log(globalVar); // Truy cập được 
-console. log(globalLet); // Truy cập được 
+console.log(globalVar); // Truy cập được 
+console.log(globalLet); // Truy cập được 
 ｝
 ```
 
@@ -488,7 +488,7 @@ if (i === 5) {
 break; // Thoát vòng lặp khi i = 5
 
 }
-console. log(i);
+console.log(i);
 
 }
 ```
@@ -503,7 +503,7 @@ if (i % 2 === 0) {
     continue; // Bỏ qua số chẵn
     
     }
-console. log(i);
+console.log(i);
 
 ｝
 ```
@@ -531,15 +531,15 @@ console.log("Bạn cần học lại");
 ```javascript
 let score = 85;
 if (score >= 90) {
-    console.1og("Xuất sắc"); 
+    console.log("Xuất sắc"); 
 } else if (score >= 80) { 
     console.log( "Giỏi"); 
 } else if (score >= 70) {
-    console.1og ("Khá");
+    console.log ("Khá");
 } else if (score >= 60) {   
-    console.1og("Trung binh"); 
+    console.log("Trung binh"); 
 } else {
-    console. log("Yếu");
+    console.log("Yếu");
 }
 ```
 
@@ -696,7 +696,7 @@ console.log(arr);
 ```javascript
 let arr = [1, 2, 3]; 
 arr. unshift(0);
-console. log(arr) ;
+console.log(arr) ;
 // [0, 1, 2, 3]
 ```
 
@@ -744,7 +744,7 @@ console.log(arr);
 const numbers = [5, 12, 8, 130, 44];
 // find() - Trả về phần tử đầu tiên > 10 
 let first = numbers.find (num => num > 10); 
-console. log(first);
+console.log(first);
 ```
 - **Trả về tất cả các phần tử hợp lệ - filter()**
 ```bash
@@ -762,7 +762,7 @@ const numbers = [1, 2, 3, 4, 5];
 
 // Nhân mỗi phần tử với 2
 let doubled = numbers.map(num => num * 2); 
-console. log (doubled);
+console.log (doubled);
 // [2, 4, 6, 8, 10]
 ```
 ###### Sắp xếp mảng (sort)
